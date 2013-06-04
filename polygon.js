@@ -87,7 +87,6 @@ function polygon(sides, center, radius) {
             }
             else {
                 s *= -1;
-                //x = cpoint[0];
 
                 x = p1[0] + (percentage * delta_x);
                 y = s * (p1[0] - x) + p1[1];
